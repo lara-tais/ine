@@ -1,8 +1,7 @@
 # Django DRF Challenge
 ### by Lara Tais
 
-Answer to [this challenge](https://gist.github.com/gsimoncini/0428bfd1b35a31eaa12d9750c826e34b)
-
+Answer to the challenge provided by email.
 
 ## How to get and run the project
 
