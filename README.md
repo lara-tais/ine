@@ -10,7 +10,7 @@ You can use virtualenv.
 
 ```
 mkdir ltais && cd ltais
-venv env
+virtualenv env
 source env/bin/activate
 git clone https://github.com/lara-tais/ine.git
 cd ine
