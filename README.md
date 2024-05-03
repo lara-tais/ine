@@ -24,8 +24,8 @@ python manage.py test
 SQLite for ease of use. In a real world application I would have used PostgreSQL
 
 ### Authentication:
-I used the built-in Token authentication with a post_save signal and a login endpoint to receive a Token. 
-I did this for ease of development, in a real world system I would have probably used OAuth 2.0
+For ease of development, I used the built-in Token authentication with a post_save signal and a login endpoint for Token retrieval. 
+In a real world system I would have probably used OAuth 2.0 and Token rotation, expiry and renewal capabilities. 
 
 ### Adaptations:
 - Instead of representing the password as *** I made it write-only, so it’s not included in the retrieval serializers.
